@@ -1,11 +1,24 @@
 # Symmetry-Based Plant Detection in 3D Point Clouds from Crop Fields
 
-This repository contains code to reproduce the experiments conducted in the paper "Symmetry-Based Plant Detection in 3D Point Clouds from Crop Fields"
+This repository contains code to reproduce the experiments conducted for the paper "Symmetry-Based Plant Detection in 3D Point Clouds from Crop Fields"
 
 ## Reproduction of paper results
 The script `evaluation.m` will generate all figures from section III Experiments.
-These can be accessed in the pane to the right.
 
 ## Visualize algorithm results
 The script `example.m` can be used to explore the results in an interactive way inside a Matlab figure window.
-Note that the example script cannot be run inside codeocean.
+
+## Example results
+Red crosses indicate SEP hypotheses found by MSC, blue crosses mark ground truth labels, circle radii correspond to the confidence values produced by our method (smaller radii for higher confidence).
+
+### Dataset S
+![](images/example_s_1.png)
+![](images/example_s_2.png)
+### Dataset M
+![](images/example_m_1.png)
+![](images/example_m_2.png)
+![](images/example_m_3d_1.png)
+### Dataset L
+![](images/example_l_1.png)
+![](images/example_l_3d_1.png)
+
