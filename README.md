@@ -2,6 +2,8 @@
 
 This repository contains code to reproduce the experiments conducted for the paper "Symmetry-Based Plant Detection in 3D Point Clouds from Crop Fields"
 
+The code is also available at codeocean https://codeocean.com/2018/05/14/symmetry-based-plant-detection-in-3d-point-clouds-from-crop-fields/. The codeocean capsule can be used to run `evaluation.m` in a defined environment and reproduce the results.
+
 ## Reproduction of paper results
 The script `evaluation.m` will generate all figures from section III Experiments.
 
